@@ -16,7 +16,7 @@ html{
     color: var(--text-color);
 }
 body{
-    min-width: 100vh;
+    min-height: 100vh;
     padding: 10px;
     background-color: var(--background);
     display: flex;
@@ -37,7 +37,7 @@ h1{
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 10 px;
+    gap: 10px;
 }
 #todo-input{
     box-sizing:border-box;
@@ -60,6 +60,7 @@ form{
     position: absolute;
     top:0;
     bottom: 0;
+    right: 0;
 
     background-color: var(--accent-color);
     height: 100%;
